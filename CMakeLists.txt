@@ -4,6 +4,9 @@ project(YARP_carl
   LANGUAGES CXX
   VERSION 1.0.0)
  
+set(CMAKE_CXX_STANDARD 11)
+
+
 include(FeatureSummary)
 
 find_package(YCM REQUIRED)
